@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1, p{
+  font-size: 40px;
+  color: white;
+}
+li{
+  display: inline;
+  float: left;
+  padding: 8px;
+  background-color: #000000;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+li :hover{
+  background-color: #111;
+  color: white;
+}
+a{
+
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px;
+}
+.home, .abt, .con{
+  padding-top: 200px;
+}
+.home{
+  font-family: cursive;
+}
+button{
+  
+  margin: 8px;
+  border: none;
+  font-size:25px;
+  background-color: #2948ff;
+  color: white;
+  padding: 4px;
+  border-radius: 8px 0px 8px 0px;
+  font-family: cursive;
+}
+.navabt{
+  margin: 20px;
+  font-size: 25px;
+}
+.teams{
+  margin: 20px;
+
+}
+
