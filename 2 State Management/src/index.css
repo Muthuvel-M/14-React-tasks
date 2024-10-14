@@ -1,0 +1,22 @@
+body{
+  background-color: lightblue;
+}
+.high{
+  font-size: 80px;
+  text-align: center;
+  padding-top: 10%;
+}
+.btn1{
+  background: rgb(23, 211, 23);
+  color: white;
+  font-size: 30px;
+  border-radius: 4px;
+  margin: 8px;
+}
+.btn2{
+  background: rgb(241, 31, 31);
+  color: white;
+  font-size: 30px;
+  border-radius: 4px;
+  margin: 8px;
+}
