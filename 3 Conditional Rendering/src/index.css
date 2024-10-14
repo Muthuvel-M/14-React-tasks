@@ -1,0 +1,40 @@
+body {
+  background-color: ;
+  background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+.btn1{
+  background-color: rgb(60, 112, 215);
+  font-size: 25px;
+  margin-left: 600px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  
+}
+.btn2{
+  background-color: rgb(60, 112, 215);
+  font-size: 25px;
+  margin-left: 560px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+}
+.wb, .msg{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  
+}
+.wb{
+  margin-top: 200px;
+}
+.msg{
+  font-size: 25px;
+}
+
+
