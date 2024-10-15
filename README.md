@@ -70,7 +70,7 @@ The Context API and Redux are tools for managing state across multiple component
 ### 10. **Advanced UI and Performance Optimization**
 Performance optimization techniques in React include memoization using `React.memo`, lazy loading, and preventing unnecessary re-renders with `useCallback` and `useMemo`.
 
-**Demo**: 
+**Demo**: [Advanced UI and Performance Optimization Example](https://ad-ui-opt.netlify.app/)
 
 ---
 
