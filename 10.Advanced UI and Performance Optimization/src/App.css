@@ -1,0 +1,176 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Main app container */
+.app-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section titles */
+h1, h2 {
+  margin-bottom: 15px;
+  color: #444;
+  text-align: center;
+}
+
+/* General Section Styles */
+section {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ddd;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+section p, section div {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Button Styles */
+button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.adrn{
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* GreetingMemo Component Styles */
+.greeting-memo {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* SumComponent Styles */
+.sum-component {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.sum-component p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* SumComponent Section Styles */
+
+.sum-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px; /* Adjust this height as needed */
+}
+
+.sum-section button {
+  margin-top: auto;
+  background-color: #28a745; /* You can change the color */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sum-section button:hover {
+  background-color: #218838;
+}
+
+.sum-component {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* ParentCallback Component Styles */
+.parent-component {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.parent-component p {
+  font-size: 18px;
+}
+
+/* LargeList Component Styles */
+.large-list {
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  overflow-y: scroll;
+}
+
+.large-list div {
+  background-color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* LazyImageLoaded Component Styles */
+.lazy-image-loaded img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lazy-image-loaded h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for images container */
+.lazy-image-loaded {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lazy-image-loaded img {
+  width: 48%;
+  margin-bottom: 20px;
+}
