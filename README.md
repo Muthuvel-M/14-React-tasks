@@ -1,4 +1,4 @@
-Below is a list of 14 React tasks with definitions and demo links for a GitHub README file:
+Below is a list of 14 React tasks with definitions and demo links
 
 ---
 
